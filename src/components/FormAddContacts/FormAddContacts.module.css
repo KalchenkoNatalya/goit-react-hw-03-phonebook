@@ -1,0 +1,22 @@
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form input {
+    width: 290px;
+    height: 25px;
+    margin-bottom: 15px;
+}
+
+.button {
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.button:hover,
+.button:focus {
+    background-color: rgba(140, 215, 231, 0.9528186274509804);
+    border: none;
+}

@@ -1,0 +1,17 @@
+.item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.btnRemove {
+    width: 70px;
+    height: 30px;
+}
+
+.btnRemove:hover,
+.btnRemove:focus {
+    background-color: rgba(209,126,227,1);
+    border: none;
+}
+
