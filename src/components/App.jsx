@@ -46,7 +46,7 @@ export class App extends Component {
   };
  componentDidMount () {
   const stringifiedContacts = localStorage.getItem('contacts');
-  console.log(stringifiedContacts);
+  // console.log(stringifiedContacts);
   const contacts = JSON.parse(stringifiedContacts) ?? this.state.contacts; 
   this.setState({contacts})
  
